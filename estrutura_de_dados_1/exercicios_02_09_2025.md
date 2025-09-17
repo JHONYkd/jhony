@@ -44,3 +44,15 @@ public class Main {
         System.out.println("Valor na terceira posição (índice 2): " + numeros[2]);
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        boolean[] status = {true, false, true};
+
+        if (status[0]) {
+            System.out.println("O primeiro status está ativo.");
+        } else {
+            System.out.println("O primeiro status está inativo.");
+        }
+    }
+}
